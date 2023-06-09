@@ -1,0 +1,331 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    color: #454140;
+    background-color: #F4F4F4;;
+    width: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Brawler';
+    font-weight: 400;
+    font-size: 24px;
+}
+nav .nav-left{
+    margin-left: 36px;
+    width: 100px;
+    height: 100px;
+    scale: 0.5;
+}
+.logo{
+    position: fixed;
+    cursor: pointer;
+    top: -50px;
+    left: 0.5;
+    height: 250px;
+    width: 250px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(45, 45, 45, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+nav .nav-menu {
+    margin-right: 36px;
+    margin-top: 32px;
+}
+a{
+    color: rgba(255, 242, 242, 1);
+    text-decoration: none;
+    display: flex;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    background-color: linear-gradient(251.15deg, #CABDBD 23.09%, rgba(185, 55, 55, 0.0471552) 52.99%, rgba(190, 147, 147, 0) 82.31%);
+}
+.home-container {
+    display: flex;
+    justify-content: space-between;
+}
+.home-left{
+    display: block;
+    font-family: 'Italiana';
+    margin-top: 219px;
+    margin-left: 100px;
+    margin-bottom: 400px;
+}
+.home-left h3 {
+    font-size: 96px;
+    font-weight: 400;
+    margin-bottom: -90px;
+}
+.home-left h2 {
+    font-weight: 400;
+    font-size: 115px;
+    margin-bottom: -90px;
+}
+.home-right {
+    position: absolute;
+    right: 0;
+    z-index: -5;
+}
+.home-right img {
+    width: 808px;
+    height: 915px;
+}
+.home-contact {
+    display: flex;
+    position: absolute;
+    padding-right: 32px;
+    left: 60px;
+    top: 840px;
+}
+.home-contact img {
+    height: 65px;
+    width: auto;
+    padding-left: 40px;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about-title {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Bevan';
+    text-align: center;
+    line-height: 205.69px;
+}
+.about-skills-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+.detail {
+    display: block;
+}
+.about-skills {
+    display: block;
+}
+.about-skills .line {
+    width: 474px;
+    height: 3px;
+    background-color: black;
+    margin-top: -54px;
+    margin-bottom:36px;
+}
+.detail-image {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Brawler';
+}
+.about-skills h5 {
+    font-size: 4 0px;
+    font-family: 'Poppins';
+}
+.detail-image span {
+    display: block;
+    margin-bottom: 8px;
+}
+.detail-image a {
+    color: #454140;
+}
+.about2-left {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    position: relative;
+}
+.about2-left-desc {
+    display: block;
+    font-family: 'Brawler';
+    position: absolute;
+}
+.about2-left-desc h6{
+    font-size: 48px;
+    font-weight: 400;
+    color: #F4F4F4;
+    margin-right: 32px;
+}
+.about2-left-desc p {
+    font-size: 42px;
+    font-weight: 400;
+    color: #F4F4F4;
+    margin-right: 32px;
+}
+.about2-left-rect {
+    width: 100%;
+    height: auto;
+    background-color: #B9958D;
+    position: relative;
+    z-index: -2;
+    padding-left: 80px;
+    margin-left: 48px;
+}
+.gallery {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.galleries h4 {
+    font-family: 'Kaisei HarunoUmi';
+    font-size: 100px;
+    line-height: 145px;
+    display: flex;
+    justify-content: center;
+}
+.galleries .line {
+    width: 600px;
+    height: 3px;
+    background-color: black;
+    margin-top: -80px;
+}
+.galleries1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 256px;
+    padding-top: 128px;
+}
+.galleries1-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: column;
+    flex-direction: 0;
+    gap: 240px;
+}
+.galleries1-images1 {
+    display: flex;
+    flex-wrap: row;
+}
+.galleries1-imagesdesc {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.galleries1-imagesdesc h4 {
+    font-size: 96px;
+    font-weight: 400;
+    font-family: 'Italiana';
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+}
+.galleries1-imagesdesc h5 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: "jacques francois";
+    text-align: center;
+    margin-top: -120px;
+}
+.contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 220px;              
+}
+.contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kaisei HarunoUmi';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 92.67px;
+}.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+    font-size: 24px;
+    font-family: 'Kaisei HarunoUmi';
+}
+.contact-form input {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;  
+    width: 800px;
+    height: 52px; 
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 16px;
+    justify-content: center;
+    border: none;
+}
+.contact-form textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;  
+    width: 800px;
+    height: 165px;
+    border: none;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 24px;
+    justify-content: center;
+}
+.contact-form ::placeholder {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.contact-form .submit {
+    width: 224px;
+    height: 55px;
+    background: #242323;
+    border-radius: 50px;
+    font-size: 24px;
+    color: #FAFAFA;
+    font-weight: 600;
+    align-items: end;
+    position: absolute;
+    font-family: 'Kaisei HarunoUmi';
+}
+.footer-container {
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 140px;
+    margin-top: 165px;
+    font-family: 'Kaisei HarunoUmi';
+}
+.footer-container h4 {
+    font-size: 64px;
+    font-weight: 400;
+}
+.footer-container h5{
+    font-size: 32px;
+    font-weight: 400;
+}
+.footer-container a{
+    color:#454140;
+}
